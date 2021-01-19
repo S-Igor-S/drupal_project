@@ -1,0 +1,14 @@
+uuid: 021e8dbe-5e80-4361-bd81-fff72fc216eb
+name: DrupalSite
+mail: ihor.prachuk@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,29 @@
+uuid: 698437ac-97c3-4ef9-b4c0-59f1675dbfee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genres
+    - node.type.game
+    - taxonomy.vocabulary.genres
+id: node.game.field_genres
+field_name: field_genres
+entity_type: node
+bundle: game
+label: Genres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genres: genres
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

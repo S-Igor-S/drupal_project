@@ -1,0 +1,8 @@
+uuid: d18e508b-0927-44a6-98d2-f87d154d2932
+langcode: en
+status: true
+dependencies: {  }
+name: Rating
+vid: rating
+description: 'Age restrictions'
+weight: 0

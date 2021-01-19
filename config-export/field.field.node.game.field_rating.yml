@@ -1,0 +1,29 @@
+uuid: 45a3eec4-8e16-46a9-904a-174c457eead1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.game
+    - taxonomy.vocabulary.rating
+id: node.game.field_rating
+field_name: field_rating
+entity_type: node
+bundle: game
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rating: rating
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: b5c1deef-8b00-4091-93ba-e927ed3f81e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poster
+    - node.type.game
+  module:
+    - text
+id: node.game.field_poster
+field_name: field_poster
+entity_type: node
+bundle: game
+label: Poster
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

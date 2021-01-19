@@ -1,0 +1,8 @@
+uuid: 2e5408a8-1034-42e2-ac29-8c0ad8d0e1a3
+langcode: en
+status: true
+dependencies: {  }
+name: Genres
+vid: genres
+description: 'Genres of game'
+weight: 0
