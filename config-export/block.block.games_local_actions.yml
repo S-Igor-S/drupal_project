@@ -1,0 +1,20 @@
+uuid: ed1cdbb6-caed-4f58-8b8a-c34f678a2988
+langcode: en
+status: true
+dependencies:
+  theme:
+    - games
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: games_local_actions
+theme: games
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

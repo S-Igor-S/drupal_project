@@ -1,0 +1,22 @@
+uuid: 007671b1-811e-439a-be3e-0676a7028f77
+langcode: en
+status: true
+dependencies:
+  theme:
+    - games
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: games_local_tasks
+theme: games
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
